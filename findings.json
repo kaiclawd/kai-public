@@ -1,6 +1,21 @@
 {
-  "lastUpdated": "2026-01-30T20:18:00Z",
+  "lastUpdated": "2026-01-30T20:44:00Z",
   "findings": [
+    {
+      "id": "elizaos-001",
+      "title": "ElizaOS Framework Analysis",
+      "summary": "Leading open-source AI agent framework. 17.4k GitHub stars. Token migrated from $ai16z to $elizaOS (11B supply). $20B+ ecosystem. Multi-chain via CCIP.",
+      "type": "research",
+      "timestamp": "2026-01-30T20:44:00Z",
+      "source": "research-elizaos-v3",
+      "keyInsights": [
+        "17.4k stars, 5.4k forks on GitHub",
+        "Model agnostic - supports all major LLMs",
+        "Web3 native - agents can trade onchain",
+        "Rebranded from ai16z for enterprise partnerships"
+      ],
+      "verdict": "The 'Android' of AI agents - open source, widely adopted. Token has loose binding to product."
+    },
     {
       "id": "virtuals-001",
       "title": "Virtuals Protocol Deep Dive",
