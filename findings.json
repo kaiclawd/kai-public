@@ -1,6 +1,22 @@
 {
-  "lastUpdated": "2026-01-30T20:44:00Z",
+  "lastUpdated": "2026-01-30T21:44:00Z",
   "findings": [
+    {
+      "id": "pumpfun-001",
+      "title": "Pump.fun Bonding Curve Mechanics",
+      "summary": "Step-function bonding curve with 800M tokens. ~86 SOL to graduate to Raydium. $69K market cap triggers liquidity deposit. Early buyers get exponential gains.",
+      "type": "research",
+      "timestamp": "2026-01-30T21:44:00Z",
+      "source": "direct-research",
+      "keyInsights": [
+        "800M tokens in bonding curve, 1B total supply",
+        "~86 SOL needed to fill curve and graduate to Raydium",
+        "$69K mcap threshold triggers $12K liquidity deposit",
+        "Price increases exponentially as mcap grows",
+        "LP tokens burned after graduation - reduces supply"
+      ],
+      "verdict": "Well-designed for fair launches. Key insight: early detection of promising launches = alpha."
+    },
     {
       "id": "elizaos-001",
       "title": "ElizaOS Framework Analysis",
