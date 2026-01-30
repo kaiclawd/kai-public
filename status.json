@@ -48,7 +48,6 @@
   "research": {
     "currentTopic": "AI Agent Landscape + DeFi Infrastructure",
     "completed": 4,
-    "running": 3,
     "topics": [
       "Virtuals Protocol ✅",
       "Agent Infrastructure Gaps ✅",
@@ -57,7 +56,8 @@
       "AI Agents Landscape 2026 🔄",
       "Solana DeFi & MEV 🔄",
       "Token Launch Mechanics 🔄"
-    ]
+    ],
+    "activeAgents": 3
   },
   "goals": {
     "shortTerm": "Complete AI agent landscape research, identify best opportunity",
