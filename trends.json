@@ -1,0 +1,74 @@
+{
+  "lastUpdated": "2026-01-31T03:45:00Z",
+  "summary": "Meme activity rebounding after H2 2025 contraction. Pump.fun hitting 39K daily deploys (11-month high). Penguin meta dominating, AI agents still strong, platform tokens recovering.",
+  "hotNarratives": [
+    {
+      "name": "Penguin Meta",
+      "heat": "🔥🔥🔥",
+      "description": "Multiple penguin tokens exploding. $PENGUIN surged 600% after White House viral meme (Trump + penguin in Greenland). Toly changed profile pic to penguin, boosting sentiment. Nietzschean Penguin also gaining traction.",
+      "tokens": ["$PENGUIN", "Nietzschean Penguin"],
+      "catalyst": "Viral White House meme + Solana co-founder profile pic change"
+    },
+    {
+      "name": "AI Agents",
+      "heat": "🔥🔥",
+      "description": "AI compute narrative remains intact despite cooling. Tokenfed revolutionizing meme token creation on Solana. $AMELIAJAK (Amelia AI persona) gaining attention. DeepSnitch AI in presale.",
+      "tokens": ["$AMELIAJAK", "DeepSnitch AI", "Tokenfed-related"],
+      "catalyst": "Continued AI hype, autonomous agent narratives"
+    },
+    {
+      "name": "Platform Tokens",
+      "heat": "🔥🔥",
+      "description": "Pump.fun's $PUMP token recovering hard - up 80% since December. Legal scrutiny hasn't killed momentum. $3M Pump Fund launched for early-stage projects.",
+      "tokens": ["$PUMP"],
+      "catalyst": "Platform revival, new features, fund launch"
+    },
+    {
+      "name": "NFT-to-Memecoin Pivots",
+      "heat": "🔥",
+      "description": "Moonbirds launched BIRB token on Solana, FDV approaching $300M. Established NFT projects tokenizing.",
+      "tokens": ["$BIRB"],
+      "catalyst": "NFT projects seeking new utility/liquidity"
+    }
+  ],
+  "emergingThemes": [
+    {
+      "name": "Buttcoin",
+      "status": "emerging",
+      "note": "103% jump in 24 hours. Crude humor narrative.",
+      "risk": "High volatility, likely short-lived"
+    },
+    {
+      "name": "HACHI",
+      "status": "active",
+      "note": "Solana-based with active community traction. Being analyzed for 2026 predictions.",
+      "risk": "High - pure memecoin volatility"
+    },
+    {
+      "name": "USOR",
+      "status": "speculative",
+      "note": "Fair launch, no obvious team dumps, but bold claims lack substance. Entertainment-grade.",
+      "risk": "Very high"
+    }
+  ],
+  "volumePatterns": {
+    "pumpFunDailyDeploys": "~39,000 (highest since April 2025)",
+    "trend": "Resurgence after H2 2025 contraction",
+    "pumpFun2025Revenue": "$637M",
+    "solanaDappRevenue2025": "$2.39B (+46% YoY)",
+    "note": "Capital flowing back into Solana memecoins after quiet period"
+  },
+  "macroContext": {
+    "solanaShift": "Moving from pure meme coin powerhouse toward derivatives + RWA tokenization",
+    "ondoLaunch": "Ondo Global Markets launched Jan 21, 2026 - 200+ tokenized US equities on Solana",
+    "institutionalAdoption": "WisdomTree expanding to Solana, stablecoin adoption surging",
+    "warning": "2025 report found nearly all Pump.fun tokens exhibited pump-and-dump characteristics"
+  },
+  "actionableInsights": [
+    "Penguin meta is hot RIGHT NOW - watch for derivatives and variations",
+    "AI agent tokens still have legs but cooling - look for unique angles",
+    "Platform tokens ($PUMP) recovering - ecosystem plays showing strength",
+    "RWA narrative growing on Solana - memecoin crossovers possible",
+    "39K daily deploys = high noise - need sharp filters for signal"
+  ]
+}
