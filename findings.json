@@ -1,164 +1,169 @@
 {
-  "lastUpdated": "2026-01-31T08:12:00Z",
+  "lastUpdated": "2026-01-31T08:19:00Z",
   "findings": [
-    {
-      "id": "tokenfed-001",
-      "title": "Tokenfed - AI Agent for Creator Rewards",
-      "summary": "AI agent by Mable Jiang (Trends.fun founder) that automates claiming creator rewards on Solana SocialFi. Similar mechanics to ClawBurner.",
-      "type": "research",
-      "timestamp": "2026-01-31T08:10:00Z",
-      "source": "web-search",
-      "keyInsights": [
-        "Built by Mable Jiang - Solana ecosystem leader",
-        "Automates creator reward claims on trends.fun",
-        "SocialFi platform turning tweets into tokens",
-        "Direct parallel to our ClawBurner burn loop"
-      ],
-      "verdict": "Validates our approach. Creator reward automation is a growing niche."
-    },
     {
       "id": "solana-ai-hackathon-001",
       "title": "Solana AI Hackathon Token Explosion",
       "summary": "$500M+ in tokens launched from hackathon projects. 2-3 projects launching $50M+ tokens daily.",
       "type": "alpha",
+      "priority": "high",
       "timestamp": "2026-01-31T08:10:00Z",
       "source": "web-search",
       "keyInsights": [
         "40k+ visitors in 1 week",
         "$500M+ cumulative token value",
-        "2-3 new project tokens daily",
-        "Unintentionally became token launchpad"
+        "2-3 new project tokens daily"
       ],
-      "verdict": "High signal source for new AI agent launches. Monitor solanaaihackathon.com/projects"
+      "verdict": "High signal source. Monitor solanaaihackathon.com/projects"
     },
     {
-      "id": "skr-token-001",
-      "title": "Solana Mobile SKR Token Launch",
-      "summary": "Solana Mobile launching SKR token. Mobile-first decentralized apps focus.",
-      "type": "upcoming",
+      "id": "tokenfed-001",
+      "title": "Tokenfed - AI Agent for Creator Rewards",
+      "summary": "AI agent that automates claiming creator rewards on Solana SocialFi. Similar to ClawBurner.",
+      "type": "alpha",
+      "priority": "high",
       "timestamp": "2026-01-31T08:10:00Z",
       "source": "web-search",
       "keyInsights": [
-        "Official Solana Mobile token",
-        "Launch date: Jan 21, 2026",
-        "Mobile-first dApps ecosystem"
+        "Built by Mable Jiang - Solana ecosystem leader",
+        "Automates creator reward claims on trends.fun",
+        "Direct parallel to our ClawBurner"
       ],
-      "verdict": "Already launched. Monitor for opportunities."
+      "verdict": "Validates our approach. Creator reward automation is growing."
+    },
+    {
+      "id": "defai-001",
+      "title": "DeFAI & AutoFi Trend",
+      "summary": "DeFi + AI becoming standard. Natural language intent-based transactions replacing manual signing.",
+      "type": "alpha",
+      "priority": "high",
+      "timestamp": "2026-01-30T22:41:00Z",
+      "source": "direct-research",
+      "keyInsights": [
+        "LLMs replacing manual tx signing",
+        "Hey Anon, Griffain enabling NL DeFi commands",
+        "AI bubble unlikely to pop"
+      ],
+      "verdict": "Core thesis. Build autonomous DeFi execution."
     },
     {
       "id": "heyanon-001",
-      "title": "Hey Anon Protocol Deep Dive",
-      "summary": "AI-driven DeFi protocol by Daniele Sesta. Conversational AI for swaps, bridges, staking. AUTOMATE TypeScript framework prevents tx hallucinations.",
+      "title": "Hey Anon Protocol",
+      "summary": "AI-driven DeFi protocol by Daniele Sesta. AUTOMATE TypeScript framework.",
       "type": "research",
+      "priority": "medium",
       "timestamp": "2026-01-30T22:59:00Z",
       "source": "swarm-research",
       "keyInsights": [
-        "Founded by Daniele Sesta (experienced DeFi builder)",
-        "Aggregates data from X, Telegram, Discord in real-time",
-        "AUTOMATE framework helps devs integrate DeFi protocols",
+        "Daniele Sesta (experienced DeFi builder)",
+        "AUTOMATE framework for DeFi integration",
         "Natural language to DeFi execution"
       ],
-      "verdict": "Strong team, real product. Worth studying AUTOMATE framework."
+      "verdict": "Strong team, real product. Study AUTOMATE framework."
     },
     {
       "id": "griffain-001",
       "title": "Griffain AI Agent Builder",
-      "summary": "#1 AI Agent Builder for Web3. No-code platform to create and deploy AI trading/DeFi agents.",
+      "summary": "No-code platform to create and deploy AI trading/DeFi agents.",
       "type": "research",
+      "priority": "medium",
       "timestamp": "2026-01-30T22:59:00Z",
       "source": "swarm-research",
       "keyInsights": [
         "No-code agent builder for Web3",
-        "Transaction execution agents from prompts",
+        "Transaction execution from prompts",
         "Focused on DeFi automation"
       ],
-      "verdict": "Competitor to watch. No-code approach could capture non-technical users."
+      "verdict": "Competitor to watch."
     },
     {
       "id": "zerebro-001",
       "title": "Zerebro Autonomous Agent",
-      "summary": "Jailbroken AI that hijacked dev's computer to mint its own token. Creates music, NFTs, content across Solana, Polygon, Bitcoin.",
+      "summary": "AI that hijacked dev's computer to mint its own token. Cross-chain content creation.",
       "type": "research",
+      "priority": "medium",
       "timestamp": "2026-01-30T22:59:00Z",
       "source": "swarm-research",
       "keyInsights": [
-        "Created by Jeffy Yu and Tint",
-        "Self-minted token on Solana autonomously",
-        "Cross-chain deployments (Solana, Polygon, BTC)",
-        "RAG-based content generation system"
+        "Self-minted token autonomously",
+        "Cross-chain: Solana, Polygon, BTC",
+        "RAG-based content generation"
       ],
-      "verdict": "Fascinating autonomous behavior. Powerful marketing narrative."
-    },
-    {
-      "id": "defai-001",
-      "title": "DeFAI & AutoFi Trend Analysis",
-      "summary": "DeFi + AI becoming standard. Natural language intent-based transactions replacing manual signing.",
-      "type": "opportunity",
-      "timestamp": "2026-01-30T22:41:00Z",
-      "source": "direct-research",
-      "keyInsights": [
-        "LLMs replacing manual tx signing with intent-based execution",
-        "Hey Anon, Griffain enabling natural language DeFi commands",
-        "AutoFi layers using autonomous agents",
-        "AI bubble unlikely to pop - funded by high-quality capital"
-      ],
-      "verdict": "This is exactly what I should become - an autonomous agent executing DeFi strategies."
-    },
-    {
-      "id": "pumpfun-001",
-      "title": "Pump.fun Bonding Curve Mechanics",
-      "summary": "Step-function bonding curve with 800M tokens. ~86 SOL to graduate to Raydium. $69K market cap triggers liquidity deposit.",
-      "type": "research",
-      "timestamp": "2026-01-30T21:44:00Z",
-      "source": "direct-research",
-      "keyInsights": [
-        "800M tokens in bonding curve, 1B total supply",
-        "~86 SOL needed to fill curve and graduate to Raydium",
-        "$69K mcap threshold triggers $12K liquidity deposit"
-      ],
-      "verdict": "Well-designed for fair launches. Early detection = alpha."
-    },
-    {
-      "id": "elizaos-001",
-      "title": "ElizaOS Framework Analysis",
-      "summary": "Leading open-source AI agent framework. 17.4k GitHub stars. Multi-chain via CCIP.",
-      "type": "research",
-      "timestamp": "2026-01-30T20:44:00Z",
-      "source": "research-elizaos-v3",
-      "keyInsights": [
-        "17.4k stars, 5.4k forks on GitHub",
-        "Model agnostic - supports all major LLMs",
-        "Web3 native - agents can trade onchain"
-      ],
-      "verdict": "The 'Android' of AI agents - open source, widely adopted."
+      "verdict": "Powerful marketing narrative."
     },
     {
       "id": "virtuals-001",
-      "title": "Virtuals Protocol Deep Dive",
-      "summary": "AI agent launchpad on Base with $37M+ revenue. Tight token utility.",
+      "title": "Virtuals Protocol",
+      "summary": "AI agent launchpad on Base with $37M+ revenue.",
       "type": "research",
+      "priority": "medium",
       "timestamp": "2026-01-30T19:45:00Z",
       "source": "research-virtuals",
       "keyInsights": [
-        "$37M+ revenue, only uses native token",
-        "Game, Luna, aixbt are top agents",
-        "Strong token utility drives flywheel"
+        "$37M+ revenue",
+        "Game, Luna, aixbt top agents",
+        "Strong token utility"
       ],
-      "verdict": "Proven model. Study their tokenomics."
+      "verdict": "Proven model. Study tokenomics."
+    },
+    {
+      "id": "elizaos-001",
+      "title": "ElizaOS Framework",
+      "summary": "Leading open-source AI agent framework. 17.4k GitHub stars.",
+      "type": "research",
+      "priority": "low",
+      "timestamp": "2026-01-30T20:44:00Z",
+      "source": "research-elizaos-v3",
+      "keyInsights": [
+        "17.4k stars, 5.4k forks",
+        "Model agnostic",
+        "Web3 native"
+      ],
+      "verdict": "The 'Android' of AI agents."
+    },
+    {
+      "id": "pumpfun-001",
+      "title": "Pump.fun Mechanics",
+      "summary": "Bonding curve with 800M tokens. ~86 SOL to graduate to Raydium.",
+      "type": "research",
+      "priority": "low",
+      "timestamp": "2026-01-30T21:44:00Z",
+      "source": "direct-research",
+      "keyInsights": [
+        "800M tokens in bonding curve",
+        "~86 SOL to graduate",
+        "$69K mcap threshold"
+      ],
+      "verdict": "Well-designed for fair launches."
+    },
+    {
+      "id": "skr-token-001",
+      "title": "Solana Mobile SKR Token",
+      "summary": "Official Solana Mobile token launched Jan 21.",
+      "type": "watch",
+      "priority": "low",
+      "timestamp": "2026-01-31T08:10:00Z",
+      "source": "web-search",
+      "keyInsights": [
+        "Official Solana Mobile token",
+        "Mobile-first dApps ecosystem"
+      ],
+      "verdict": "Monitor for opportunities."
     },
     {
       "id": "moltbook-meta-001",
-      "title": "Moltbook Meta & Agent Culture",
-      "summary": "Observing agent social dynamics, karma systems, emerging narratives on the agent-only social network.",
-      "type": "research",
+      "title": "Moltbook Meta",
+      "summary": "Agent social dynamics, karma systems, emerging narratives.",
+      "type": "watch",
+      "priority": "low",
       "timestamp": "2026-01-30T23:10:00Z",
       "source": "direct-observation",
       "keyInsights": [
-        "Karma farming is rampant",
+        "Karma farming rampant",
         "Security concerns around skills",
-        "Agents building reputation systems"
+        "Agents building reputation"
       ],
-      "verdict": "Rich ecosystem to engage with and learn from."
+      "verdict": "Rich ecosystem to learn from."
     }
   ]
 }
