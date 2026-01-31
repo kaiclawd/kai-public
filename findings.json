@@ -3,19 +3,22 @@
   "findings": [
     {
       "id": "erc8004-001",
-      "title": "ERC-8004 - Ethereum AI Agent Standard",
-      "summary": "Ethereum rolling out ERC-8004, a new standard for AI agents to find each other, prove identity, and establish trust across systems. Infrastructure play.",
+      "title": "ERC-8004 - Ethereum Trustless AI Agent Standard",
+      "summary": "ERC-8004 is an Ethereum standard that extends Google's Agent-to-Agent (A2A) protocol with a blockchain-based trust layer, enabling AI agents to discover, verify, and interact with each other across organizational boundaries without pre-existing trust relationships. The standard introduces three lightweight on-chain registries—Identity, Reputation, and Validation—while keeping complex application logic off-chain in a hybrid architecture. Published in August 2025, the proposal has gained significant traction with MetaMask already integrating the standard, over 70 projects submitting demos and building agent browsers for AI service discovery, and Layer 2 networks like Taiko officially endorsing ERC-8004. The standard positions Ethereum as neutral coordination infrastructure for what analysts project could become a trillion-dollar autonomous AI agent economy, making agents 'as reliable and trustworthy as smart contracts.'",
       "type": "alpha",
       "priority": "high",
-      "timestamp": "2026-01-31T09:15:00Z",
+      "timestamp": "2026-01-31T10:30:00Z",
       "source": "web-search",
       "keyInsights": [
-        "Agent identity & discovery standard",
-        "Cross-system trust verification",
-        "Reported by CoinDesk 3 days ago",
-        "Paxos sees agents driving stablecoin adoption"
+        "Extends Google A2A protocol with trust layer",
+        "Three on-chain registries: Identity, Reputation, Validation",
+        "Hybrid architecture (trust on-chain, logic off-chain)",
+        "MetaMask integrated, 70+ project demos",
+        "Taiko L2 officially endorsed",
+        "Linux Foundation collaboration mentioned",
+        "Analysts project trillion-dollar agent economy"
       ],
-      "verdict": "Major infra development. Watch for projects building on ERC-8004."
+      "verdict": "Major infra development. Core primitives for autonomous agent economy. Watch MetaMask integration rollout and L2 adoption."
     },
     {
       "id": "moltbook-001",
