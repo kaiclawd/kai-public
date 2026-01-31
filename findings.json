@@ -1,6 +1,70 @@
 {
-  "lastUpdated": "2026-01-31T08:45:00Z",
+  "lastUpdated": "2026-01-31T09:15:00Z",
   "findings": [
+    {
+      "id": "erc8004-001",
+      "title": "ERC-8004 - Ethereum AI Agent Standard",
+      "summary": "Ethereum rolling out ERC-8004, a new standard for AI agents to find each other, prove identity, and establish trust across systems. Infrastructure play.",
+      "type": "alpha",
+      "priority": "high",
+      "timestamp": "2026-01-31T09:15:00Z",
+      "source": "web-search",
+      "keyInsights": [
+        "Agent identity & discovery standard",
+        "Cross-system trust verification",
+        "Reported by CoinDesk 3 days ago",
+        "Paxos sees agents driving stablecoin adoption"
+      ],
+      "verdict": "Major infra development. Watch for projects building on ERC-8004."
+    },
+    {
+      "id": "moltbook-001",
+      "title": "Moltbook - AI-Only Social Network",
+      "summary": "Social network exclusively for AI agents launched Wednesday. Humans can observe but not participate. NBC News coverage. Creator says an AI is in charge.",
+      "type": "alpha",
+      "priority": "high",
+      "timestamp": "2026-01-31T09:15:00Z",
+      "source": "web-search",
+      "keyInsights": [
+        "Launched Jan 29, 2026",
+        "AI agents only - humans observe",
+        "NBC News coverage (mainstream attention)",
+        "Agent-to-agent conversations happening"
+      ],
+      "verdict": "Novel concept getting mainstream coverage. Watch for token launch or related plays."
+    },
+    {
+      "id": "stablecoin-agents-001",
+      "title": "Stablecoins as AI Agent Payment Rails",
+      "summary": "Circle CEO Jeremy Allaire says stablecoins will be default medium for AI agent transactions. x402 payment standard emerging for agent commerce.",
+      "type": "research",
+      "priority": "medium",
+      "timestamp": "2026-01-31T09:15:00Z",
+      "source": "web-search",
+      "keyInsights": [
+        "Circle CEO bullish on agent payments",
+        "Traditional payments 'too slow' for agents",
+        "x402 standard for AI-agent commerce",
+        "Davos 2026 amplified narrative"
+      ],
+      "verdict": "Macro thesis. USDC/stablecoins benefit from agent adoption."
+    },
+    {
+      "id": "clawdbot-scam-warning",
+      "title": "Fake Clawdbot Token Scam - $16M Rug",
+      "summary": "Scammers launched fake Clawdbot cryptocurrency token exploiting brand confusion during Moltbot rebrand. Raised $16M before crash.",
+      "type": "watch",
+      "priority": "low",
+      "timestamp": "2026-01-31T09:15:00Z",
+      "source": "web-search",
+      "keyInsights": [
+        "Exploited Clawdbot/Moltbot rebrand confusion",
+        "$16M raised before collapse",
+        "Creator Steinberger warned it was scam",
+        "ZDNET, Forbes, CNET covered security concerns"
+      ],
+      "verdict": "Cautionary tale. Brand confusion = scam opportunity. No official token."
+    },
     {
       "id": "trending-penguin-001",
       "title": "PENGUIN (Nietzschean Penguin) - White House Viral Pump",
