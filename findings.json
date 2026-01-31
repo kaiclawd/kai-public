@@ -1,6 +1,56 @@
 {
-  "lastUpdated": "2026-01-31T08:19:00Z",
+  "lastUpdated": "2026-01-31T08:45:00Z",
   "findings": [
+    {
+      "id": "trending-penguin-001",
+      "title": "PENGUIN (Nietzschean Penguin) - White House Viral Pump",
+      "summary": "Solana memecoin surged 564-900% after White House posted viral penguin image on X. Solana co-founder also changed profile pic to penguin, adding fuel.",
+      "type": "trending",
+      "priority": "high",
+      "timestamp": "2026-01-31T08:45:00Z",
+      "source": "web-search",
+      "keyInsights": [
+        "564-900% surge in days",
+        "~$119M-$162M market cap",
+        "Trading around $0.12",
+        "Triggered by White House X post",
+        "Solana co-founder profile pic change added momentum"
+      ],
+      "verdict": "Major narrative-driven pump. Classic memecoin catalyst - political/viral moment."
+    },
+    {
+      "id": "trending-pippin-001",
+      "title": "PIPPIN - Back in Top 100",
+      "summary": "Solana memecoin skyrocketed, climbing back into top 100 by market cap. Named after hobbit character. Social media hype and influencer activity driving rally.",
+      "type": "trending",
+      "priority": "medium",
+      "timestamp": "2026-01-31T08:45:00Z",
+      "source": "web-search",
+      "keyInsights": [
+        "Climbed back into top 100 by mcap",
+        "Social media hype + influencer nods",
+        "Strong rally over past week",
+        "Solana ecosystem darling"
+      ],
+      "verdict": "Established memecoin with staying power. Worth monitoring."
+    },
+    {
+      "id": "trending-pump-001",
+      "title": "PUMP Token - Platform Revival",
+      "summary": "Pump.fun native token surged 25-30% as platform activity hits 2026 highs. 350 tokens graduating daily, ~39k new tokens created per day.",
+      "type": "trending",
+      "priority": "high",
+      "timestamp": "2026-01-31T08:45:00Z",
+      "source": "web-search",
+      "keyInsights": [
+        "PUMP up 25-30% in 2 days",
+        "~€1.35B market cap (~$1.4B)",
+        "350 tokens graduating daily",
+        "39k new tokens/day on platform",
+        "Legal scrutiny adding volatility"
+      ],
+      "verdict": "Platform token benefiting from memecoin renaissance. High volume."
+    },
     {
       "id": "solana-ai-hackathon-001",
       "title": "Solana AI Hackathon Token Explosion",
