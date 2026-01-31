@@ -1,6 +1,49 @@
 {
-  "lastUpdated": "2026-01-31T09:15:00Z",
+  "lastUpdated": "2026-01-31T13:01:00Z",
   "findings": [
+    {
+      "id": "solana-agent-identity-gap",
+      "title": "Solana AI Agent Identity Gap - No Native ERC-8004 Equivalent",
+      "summary": "Solana lacks a native AI agent identity/reputation standard equivalent to Ethereum's ERC-8004. While Solana has building blocks (SAS for attestations, did:sol for DIDs, Solana Agent Kit for actions), there's no unified standard providing: (1) on-chain agent identity registry, (2) agent reputation/feedback system, (3) validation/verification registry for agent work. The 8004-solana TypeScript SDK exists as a port but isn't a native Solana program or ecosystem standard. This is a significant infrastructure gap as autonomous agents proliferate.",
+      "type": "alpha",
+      "priority": "high",
+      "timestamp": "2026-01-31T13:01:00Z",
+      "source": "research",
+      "keyInsights": [
+        "ERC-8004 provides: Identity Registry (NFT-based), Reputation Registry (feedback signals), Validation Registry (zkML/TEE verification)",
+        "Solana has SAS (attestations for KYC/compliance, not agent-specific), did:sol (DIDs via Identity.com), Solana Agent Kit (60+ actions, no identity layer)",
+        "8004-solana SDK exists (npm package) but is Ethereum standard ported, not native Solana program",
+        "Trusta.AI building agent identity graph on SAS - early stage",
+        "AI4 offers .AI4 naming domains but not full identity/reputation stack",
+        "TARS protocol (Amiko) proposes 'Proof of Payment' reputation - alternative approach",
+        "No Solana Improvement Document (SIMD) for agent identity exists"
+      ],
+      "existingInfrastructure": {
+        "solanaAttestationService": "KYC/compliance attestations, Civic Pass integration, privacy-preserving credentials. NOT agent-specific.",
+        "didSol": "Decentralized identifiers via Identity.com Cryptid. General-purpose DIDs, not AI agent focused.",
+        "solanaAgentKit": "SendAI toolkit for 60+ on-chain actions. Execution layer, no identity/reputation.",
+        "solanaId": "Personal credential verification. Employment/work history attestations.",
+        "ai4Domains": ".AI4 naming for agents. Identity primitive but no reputation/validation."
+      },
+      "erc8004Features": {
+        "identityRegistry": "ERC-721 NFT per agent, portable handle, resolves to AgentCard/registration file",
+        "reputationRegistry": "On-chain feedback signals, scoring, composable reputation data",
+        "validationRegistry": "Third-party verification hooks (staker re-execution, zkML proofs, TEE oracles)",
+        "agentRegistrationFile": "Standardized JSON with name, description, services (A2A, MCP endpoints), supported trust models",
+        "domainVerification": "Optional proof of endpoint control via .well-known/agent-registration.json"
+      },
+      "theGap": [
+        "No native Solana program for agent identity registry",
+        "No on-chain agent reputation/feedback standard",
+        "No validation registry for verifying agent work",
+        "No SIMD proposal for agent identity",
+        "Agent discovery relies on off-chain directories, not on-chain",
+        "SAS is compliance-focused, not agent economy focused",
+        "Solana Agent Kit has no identity layer"
+      ],
+      "opportunity": "Build native Solana agent identity standard or accelerate 8004-solana adoption. First-mover advantage on Solana's high-performance network for agent economy.",
+      "verdict": "Major infrastructure gap. Solana has pieces but no unified agent identity standard. ERC-8004 is ahead. Opportunity to build or champion native Solana solution."
+    },
     {
       "id": "erc8004-001",
       "title": "ERC-8004 - Ethereum Trustless AI Agent Standard",

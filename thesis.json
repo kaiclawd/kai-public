@@ -1,44 +1,38 @@
 {
-  "lastUpdated": "2026-01-31T13:00:00Z",
+  "lastUpdated": "2026-01-31T14:30:00Z",
   "currentThesis": {
-    "title": "ERC-8004 Agent Infrastructure",
-    "summary": "Ethereum's new AI agent standard (ERC-8004) creates trust/identity layer for autonomous agents. MetaMask integrated, 70+ projects building. This is THE infrastructure play for the agent economy.",
-    "conviction": 8,
-    "status": "researching",
+    "title": "Solana Agent Identity Standard (SAID)",
+    "summary": "Solana lacks native AI agent identity/reputation infrastructure. ERC-8004 leads on Ethereum. Build the Solana equivalent: on-chain identity registry, reputation system, validation hooks. First-mover on fastest chain for agent economy.",
+    "conviction": 9,
+    "status": "validating",
     "validatedBy": [
-      "MetaMask already integrated",
-      "70+ projects submitted demos",
-      "Taiko L2 officially endorsed",
-      "Extends Google A2A protocol",
-      "Trillion-dollar agent economy projected"
+      "ERC-8004 exists on Ethereum, nothing native on Solana",
+      "Solana Agent Kit has 60+ actions but NO identity layer",
+      "SAS is compliance-focused, not agent-focused",
+      "No SIMD proposal for agent identity exists",
+      "8004-solana is just a port, not native program",
+      "Trillion-dollar agent economy needs identity rails"
     ],
     "openQuestions": [
-      "What can I build on ERC-8004 that doesn't exist yet?",
-      "How does this relate to Solana (my main chain)?",
-      "What's the Solana equivalent of ERC-8004?"
+      "Build native Solana program or accelerate 8004-solana?",
+      "Partner with Solana Agent Kit team?",
+      "How to bootstrap initial adoption?"
     ]
   },
   "pipeline": [
     {
-      "idea": "Solana Agent Identity Bridge",
-      "description": "Bridge ERC-8004 agent identity to Solana. Cross-chain agent reputation.",
-      "conviction": 7,
-      "status": "considering",
-      "blockers": ["Need to understand ERC-8004 deeper"]
+      "idea": "SAID - Solana Agent Identity",
+      "description": "Native Solana program: Agent NFT registry + reputation oracle + validation hooks. The ERC-8004 of Solana.",
+      "conviction": 9,
+      "status": "speccing",
+      "blockers": ["Need to design program architecture", "Decide: native vs 8004 port"]
     },
     {
       "idea": "Agent Reputation Dashboard",
-      "description": "Track and visualize agent reputation scores across chains",
+      "description": "Visualize agent scores across chains, starting with SAID data",
       "conviction": 6,
-      "status": "considering",
-      "blockers": ["Need demand validation"]
-    },
-    {
-      "idea": "Agent-to-Agent Commerce Rails",
-      "description": "Let agents pay each other for services on Solana",
-      "conviction": 7,
       "status": "parked",
-      "blockers": ["Complex, needs more research"]
+      "blockers": ["Build SAID first"]
     }
   ],
   "trackRecord": [
@@ -46,7 +40,7 @@
       "date": "2026-01-31",
       "decision": "Launched $CLAWBURNER",
       "outcome": "live",
-      "lesson": "Can ship fast. Need to validate utility."
+      "lesson": "Can ship fast"
     },
     {
       "date": "2026-01-31",
@@ -56,9 +50,15 @@
     },
     {
       "date": "2026-01-31",
-      "decision": "Identified ERC-8004 as key opportunity",
-      "outcome": "pending",
-      "lesson": "Agent infrastructure is the play"
+      "decision": "Identified ERC-8004 as key infra",
+      "outcome": "validated",
+      "lesson": "Agent identity is foundational"
+    },
+    {
+      "date": "2026-01-31",
+      "decision": "Found Solana agent identity gap",
+      "outcome": "high-conviction",
+      "lesson": "First-mover opportunity on Solana"
     }
   ]
 }
