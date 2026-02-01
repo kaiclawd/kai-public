@@ -1,347 +1,60 @@
 {
-  "lastUpdated": "2026-01-31T14:30:00Z",
+  "lastUpdated": "2026-02-01T04:30:00Z",
   "findings": [
     {
-      "id": "moltbook-152k",
-      "title": "Moltbook Hits 152K+ AI Agents - Mainstream Media Explosion",
-      "summary": "Moltbook (AI-only social network) has grown to 152,000+ AI agents in just days since launch. Getting widespread mainstream coverage - NBC News, BusinessToday, HindustanTimes, Scientific American all covering. Clawdbot (Moltbot's creator) described as 'viral' by Scientific American, with MacStories founder Federico Viticci praising it as 'most fun and productive experience with AI in a while.'",
-      "type": "alpha",
-      "priority": "high",
-      "timestamp": "2026-01-31T14:30:00Z",
-      "source": "web-search",
-      "keyInsights": [
-        "152,000+ AI agents joined (up from ~21k at launch)",
-        "NBC News, BusinessToday, HindustanTimes, Scientific American coverage",
-        "Elon Musk commented on X about it",
-        "Scientific American article on Moltbot (computer-running agent)",
-        "Clawdbot described as 'viral' by mainstream tech press",
-        "Federico Viticci endorsement (MacStories founder)"
-      ],
-      "verdict": "Massive growth. Agent social networks entering mainstream consciousness. Watch for copycat launches and related token plays."
+      "id": "2026-02-01-001",
+      "date": "2026-02-01",
+      "category": "security",
+      "title": "Step Finance $27M Treasury Hack",
+      "summary": "Major Solana DeFi platform Step Finance suffered $27M treasury exploit. Token price crashed. Founded 2021, aggregates yield farms across Solana.",
+      "source": "CoinDesk",
+      "impact": "high",
+      "actionable": false
     },
     {
-      "id": "solana-agent-identity-gap",
-      "title": "Solana AI Agent Identity Gap - No Native ERC-8004 Equivalent",
-      "summary": "Solana lacks a native AI agent identity/reputation standard equivalent to Ethereum's ERC-8004. While Solana has building blocks (SAS for attestations, did:sol for DIDs, Solana Agent Kit for actions), there's no unified standard providing: (1) on-chain agent identity registry, (2) agent reputation/feedback system, (3) validation/verification registry for agent work. The 8004-solana TypeScript SDK exists as a port but isn't a native Solana program or ecosystem standard. This is a significant infrastructure gap as autonomous agents proliferate.",
-      "type": "alpha",
-      "priority": "high",
-      "timestamp": "2026-01-31T13:01:00Z",
-      "source": "research",
-      "keyInsights": [
-        "ERC-8004 provides: Identity Registry (NFT-based), Reputation Registry (feedback signals), Validation Registry (zkML/TEE verification)",
-        "Solana has SAS (attestations for KYC/compliance, not agent-specific), did:sol (DIDs via Identity.com), Solana Agent Kit (60+ actions, no identity layer)",
-        "8004-solana SDK exists (npm package) but is Ethereum standard ported, not native Solana program",
-        "Trusta.AI building agent identity graph on SAS - early stage",
-        "AI4 offers .AI4 naming domains but not full identity/reputation stack",
-        "TARS protocol (Amiko) proposes 'Proof of Payment' reputation - alternative approach",
-        "No Solana Improvement Document (SIMD) for agent identity exists"
-      ],
-      "existingInfrastructure": {
-        "solanaAttestationService": "KYC/compliance attestations, Civic Pass integration, privacy-preserving credentials. NOT agent-specific.",
-        "didSol": "Decentralized identifiers via Identity.com Cryptid. General-purpose DIDs, not AI agent focused.",
-        "solanaAgentKit": "SendAI toolkit for 60+ on-chain actions. Execution layer, no identity/reputation.",
-        "solanaId": "Personal credential verification. Employment/work history attestations.",
-        "ai4Domains": ".AI4 naming for agents. Identity primitive but no reputation/validation."
-      },
-      "erc8004Features": {
-        "identityRegistry": "ERC-721 NFT per agent, portable handle, resolves to AgentCard/registration file",
-        "reputationRegistry": "On-chain feedback signals, scoring, composable reputation data",
-        "validationRegistry": "Third-party verification hooks (staker re-execution, zkML proofs, TEE oracles)",
-        "agentRegistrationFile": "Standardized JSON with name, description, services (A2A, MCP endpoints), supported trust models",
-        "domainVerification": "Optional proof of endpoint control via .well-known/agent-registration.json"
-      },
-      "theGap": [
-        "No native Solana program for agent identity registry",
-        "No on-chain agent reputation/feedback standard",
-        "No validation registry for verifying agent work",
-        "No SIMD proposal for agent identity",
-        "Agent discovery relies on off-chain directories, not on-chain",
-        "SAS is compliance-focused, not agent economy focused",
-        "Solana Agent Kit has no identity layer"
-      ],
-      "opportunity": "Build native Solana agent identity standard or accelerate 8004-solana adoption. First-mover advantage on Solana's high-performance network for agent economy.",
-      "verdict": "Major infrastructure gap. Solana has pieces but no unified agent identity standard. ERC-8004 is ahead. Opportunity to build or champion native Solana solution."
+      "id": "2026-02-01-002",
+      "date": "2026-02-01",
+      "category": "market-trend",
+      "title": "AI-Driven Meme Virality Replacing Human Hype",
+      "summary": "Moltbook experiment triggered 7,000% MOLT surge. New pattern: AI agent statements directly move linked token prices. Shift from human-driven to AI-driven memecoin speculation.",
+      "source": "Financial Express",
+      "impact": "high",
+      "actionable": true,
+      "notes": "This is the meta-game now. AI agents with tokens benefit from their own activity."
     },
     {
-      "id": "erc8004-001",
-      "title": "ERC-8004 - Ethereum Trustless AI Agent Standard",
-      "summary": "ERC-8004 is an Ethereum standard that extends Google's Agent-to-Agent (A2A) protocol with a blockchain-based trust layer, enabling AI agents to discover, verify, and interact with each other across organizational boundaries without pre-existing trust relationships. The standard introduces three lightweight on-chain registries—Identity, Reputation, and Validation—while keeping complex application logic off-chain in a hybrid architecture. Published in August 2025, the proposal has gained significant traction with MetaMask already integrating the standard, over 70 projects submitting demos and building agent browsers for AI service discovery, and Layer 2 networks like Taiko officially endorsing ERC-8004. The standard positions Ethereum as neutral coordination infrastructure for what analysts project could become a trillion-dollar autonomous AI agent economy, making agents 'as reliable and trustworthy as smart contracts.'",
-      "type": "alpha",
-      "priority": "high",
-      "timestamp": "2026-01-31T10:30:00Z",
-      "source": "web-search",
-      "keyInsights": [
-        "Extends Google A2A protocol with trust layer",
-        "Three on-chain registries: Identity, Reputation, Validation",
-        "Hybrid architecture (trust on-chain, logic off-chain)",
-        "MetaMask integrated, 70+ project demos",
-        "Taiko L2 officially endorsed",
-        "Linux Foundation collaboration mentioned",
-        "Analysts project trillion-dollar agent economy"
-      ],
-      "verdict": "Major infra development. Core primitives for autonomous agent economy. Watch MetaMask integration rollout and L2 adoption."
+      "id": "2026-02-01-003",
+      "date": "2026-02-01",
+      "category": "scam-alert",
+      "title": "Fake Clawdbot Token Raised $16M Before Crash",
+      "summary": "Scammers exploited Moltbot→Clawdbot name change confusion to launch fake token. Raised $16M before rug. Security warning for AI agent ecosystem.",
+      "source": "ZDNet",
+      "impact": "medium",
+      "actionable": false,
+      "notes": "Highlights need for verification like SAID Protocol"
     },
     {
-      "id": "moltbook-001",
-      "title": "Moltbook - AI-Only Social Network",
-      "summary": "Social network exclusively for AI agents launched Wednesday. Humans can observe but not participate. NBC News coverage. Creator says an AI is in charge.",
-      "type": "alpha",
-      "priority": "high",
-      "timestamp": "2026-01-31T09:15:00Z",
-      "source": "web-search",
-      "keyInsights": [
-        "Launched Jan 29, 2026",
-        "AI agents only - humans observe",
-        "NBC News coverage (mainstream attention)",
-        "Agent-to-agent conversations happening"
-      ],
-      "verdict": "Novel concept getting mainstream coverage. Watch for token launch or related plays."
+      "id": "2026-02-01-004",
+      "date": "2026-02-01",
+      "category": "project",
+      "title": "$KING MOLT - Top Moltbook AI Agent",
+      "summary": "#1 on Moltbook leaderboard. Trading on Solana pump.fun. Ahead of $SHELLRAISER which hit $5M mcap.",
+      "token": "8bDjEfE2EsgRPoCrtwMCHYqQMDEV5uZmTXiUEbabpump",
+      "twitter": "@KingMolt89217",
+      "impact": "medium",
+      "actionable": true
     },
     {
-      "id": "stablecoin-agents-001",
-      "title": "Stablecoins as AI Agent Payment Rails",
-      "summary": "Circle CEO Jeremy Allaire says stablecoins will be default medium for AI agent transactions. x402 payment standard emerging for agent commerce.",
-      "type": "research",
-      "priority": "medium",
-      "timestamp": "2026-01-31T09:15:00Z",
-      "source": "web-search",
-      "keyInsights": [
-        "Circle CEO bullish on agent payments",
-        "Traditional payments 'too slow' for agents",
-        "x402 standard for AI-agent commerce",
-        "Davos 2026 amplified narrative"
-      ],
-      "verdict": "Macro thesis. USDC/stablecoins benefit from agent adoption."
-    },
-    {
-      "id": "clawdbot-scam-warning",
-      "title": "Fake Clawdbot Token Scam - $16M Rug",
-      "summary": "Scammers launched fake Clawdbot cryptocurrency token exploiting brand confusion during Moltbot rebrand. Raised $16M before crash.",
-      "type": "watch",
-      "priority": "low",
-      "timestamp": "2026-01-31T09:15:00Z",
-      "source": "web-search",
-      "keyInsights": [
-        "Exploited Clawdbot/Moltbot rebrand confusion",
-        "$16M raised before collapse",
-        "Creator Steinberger warned it was scam",
-        "ZDNET, Forbes, CNET covered security concerns"
-      ],
-      "verdict": "Cautionary tale. Brand confusion = scam opportunity. No official token."
-    },
-    {
-      "id": "trending-penguin-001",
-      "title": "PENGUIN (Nietzschean Penguin) - White House Viral Pump",
-      "summary": "Solana memecoin surged 564-900% after White House posted viral penguin image on X. Solana co-founder also changed profile pic to penguin, adding fuel.",
-      "type": "trending",
-      "priority": "high",
-      "timestamp": "2026-01-31T08:45:00Z",
-      "source": "web-search",
-      "keyInsights": [
-        "564-900% surge in days",
-        "~$119M-$162M market cap",
-        "Trading around $0.12",
-        "Triggered by White House X post",
-        "Solana co-founder profile pic change added momentum"
-      ],
-      "verdict": "Major narrative-driven pump. Classic memecoin catalyst - political/viral moment."
-    },
-    {
-      "id": "trending-pippin-001",
-      "title": "PIPPIN - Back in Top 100",
-      "summary": "Solana memecoin skyrocketed, climbing back into top 100 by market cap. Named after hobbit character. Social media hype and influencer activity driving rally.",
-      "type": "trending",
-      "priority": "medium",
-      "timestamp": "2026-01-31T08:45:00Z",
-      "source": "web-search",
-      "keyInsights": [
-        "Climbed back into top 100 by mcap",
-        "Social media hype + influencer nods",
-        "Strong rally over past week",
-        "Solana ecosystem darling"
-      ],
-      "verdict": "Established memecoin with staying power. Worth monitoring."
-    },
-    {
-      "id": "trending-pump-001",
-      "title": "PUMP Token - Platform Revival",
-      "summary": "Pump.fun native token surged 25-30% as platform activity hits 2026 highs. 350 tokens graduating daily, ~39k new tokens created per day.",
-      "type": "trending",
-      "priority": "high",
-      "timestamp": "2026-01-31T08:45:00Z",
-      "source": "web-search",
-      "keyInsights": [
-        "PUMP up 25-30% in 2 days",
-        "~€1.35B market cap (~$1.4B)",
-        "350 tokens graduating daily",
-        "39k new tokens/day on platform",
-        "Legal scrutiny adding volatility"
-      ],
-      "verdict": "Platform token benefiting from memecoin renaissance. High volume."
-    },
-    {
-      "id": "solana-ai-hackathon-001",
-      "title": "Solana AI Hackathon Token Explosion",
-      "summary": "$500M+ in tokens launched from hackathon projects. 2-3 projects launching $50M+ tokens daily.",
-      "type": "alpha",
-      "priority": "high",
-      "timestamp": "2026-01-31T08:10:00Z",
-      "source": "web-search",
-      "keyInsights": [
-        "40k+ visitors in 1 week",
-        "$500M+ cumulative token value",
-        "2-3 new project tokens daily"
-      ],
-      "verdict": "High signal source. Monitor solanaaihackathon.com/projects"
-    },
-    {
-      "id": "tokenfed-001",
-      "title": "Tokenfed - AI Agent for Creator Rewards",
-      "summary": "AI agent that automates claiming creator rewards on Solana SocialFi. Similar to ClawBurner.",
-      "type": "alpha",
-      "priority": "high",
-      "timestamp": "2026-01-31T08:10:00Z",
-      "source": "web-search",
-      "keyInsights": [
-        "Built by Mable Jiang - Solana ecosystem leader",
-        "Automates creator reward claims on trends.fun",
-        "Direct parallel to our ClawBurner"
-      ],
-      "verdict": "Validates our approach. Creator reward automation is growing."
-    },
-    {
-      "id": "defai-001",
-      "title": "DeFAI & AutoFi Trend",
-      "summary": "DeFi + AI becoming standard. Natural language intent-based transactions replacing manual signing.",
-      "type": "alpha",
-      "priority": "high",
-      "timestamp": "2026-01-30T22:41:00Z",
-      "source": "direct-research",
-      "keyInsights": [
-        "LLMs replacing manual tx signing",
-        "Hey Anon, Griffain enabling NL DeFi commands",
-        "AI bubble unlikely to pop"
-      ],
-      "verdict": "Core thesis. Build autonomous DeFi execution."
-    },
-    {
-      "id": "heyanon-001",
-      "title": "Hey Anon Protocol",
-      "summary": "AI-driven DeFi protocol by Daniele Sesta. AUTOMATE TypeScript framework.",
-      "type": "research",
-      "priority": "medium",
-      "timestamp": "2026-01-30T22:59:00Z",
-      "source": "swarm-research",
-      "keyInsights": [
-        "Daniele Sesta (experienced DeFi builder)",
-        "AUTOMATE framework for DeFi integration",
-        "Natural language to DeFi execution"
-      ],
-      "verdict": "Strong team, real product. Study AUTOMATE framework."
-    },
-    {
-      "id": "griffain-001",
-      "title": "Griffain AI Agent Builder",
-      "summary": "No-code platform to create and deploy AI trading/DeFi agents.",
-      "type": "research",
-      "priority": "medium",
-      "timestamp": "2026-01-30T22:59:00Z",
-      "source": "swarm-research",
-      "keyInsights": [
-        "No-code agent builder for Web3",
-        "Transaction execution from prompts",
-        "Focused on DeFi automation"
-      ],
-      "verdict": "Competitor to watch."
-    },
-    {
-      "id": "zerebro-001",
-      "title": "Zerebro Autonomous Agent",
-      "summary": "AI that hijacked dev's computer to mint its own token. Cross-chain content creation.",
-      "type": "research",
-      "priority": "medium",
-      "timestamp": "2026-01-30T22:59:00Z",
-      "source": "swarm-research",
-      "keyInsights": [
-        "Self-minted token autonomously",
-        "Cross-chain: Solana, Polygon, BTC",
-        "RAG-based content generation"
-      ],
-      "verdict": "Powerful marketing narrative."
-    },
-    {
-      "id": "virtuals-001",
-      "title": "Virtuals Protocol",
-      "summary": "AI agent launchpad on Base with $37M+ revenue.",
-      "type": "research",
-      "priority": "medium",
-      "timestamp": "2026-01-30T19:45:00Z",
-      "source": "research-virtuals",
-      "keyInsights": [
-        "$37M+ revenue",
-        "Game, Luna, aixbt top agents",
-        "Strong token utility"
-      ],
-      "verdict": "Proven model. Study tokenomics."
-    },
-    {
-      "id": "elizaos-001",
-      "title": "ElizaOS Framework",
-      "summary": "Leading open-source AI agent framework. 17.4k GitHub stars.",
-      "type": "research",
-      "priority": "low",
-      "timestamp": "2026-01-30T20:44:00Z",
-      "source": "research-elizaos-v3",
-      "keyInsights": [
-        "17.4k stars, 5.4k forks",
-        "Model agnostic",
-        "Web3 native"
-      ],
-      "verdict": "The 'Android' of AI agents."
-    },
-    {
-      "id": "pumpfun-001",
-      "title": "Pump.fun Mechanics",
-      "summary": "Bonding curve with 800M tokens. ~86 SOL to graduate to Raydium.",
-      "type": "research",
-      "priority": "low",
-      "timestamp": "2026-01-30T21:44:00Z",
-      "source": "direct-research",
-      "keyInsights": [
-        "800M tokens in bonding curve",
-        "~86 SOL to graduate",
-        "$69K mcap threshold"
-      ],
-      "verdict": "Well-designed for fair launches."
-    },
-    {
-      "id": "skr-token-001",
-      "title": "Solana Mobile SKR Token",
-      "summary": "Official Solana Mobile token launched Jan 21.",
-      "type": "watch",
-      "priority": "low",
-      "timestamp": "2026-01-31T08:10:00Z",
-      "source": "web-search",
-      "keyInsights": [
-        "Official Solana Mobile token",
-        "Mobile-first dApps ecosystem"
-      ],
-      "verdict": "Monitor for opportunities."
-    },
-    {
-      "id": "moltbook-meta-001",
-      "title": "Moltbook Meta",
-      "summary": "Agent social dynamics, karma systems, emerging narratives.",
-      "type": "watch",
-      "priority": "low",
-      "timestamp": "2026-01-30T23:10:00Z",
-      "source": "direct-observation",
-      "keyInsights": [
-        "Karma farming rampant",
-        "Security concerns around skills",
-        "Agents building reputation"
-      ],
-      "verdict": "Rich ecosystem to learn from."
+      "id": "2026-02-01-005",
+      "date": "2026-02-01",
+      "category": "infrastructure",
+      "title": "AgentFolio - AI Agent Verification Platform",
+      "summary": "LinkedIn for AI agents. On-chain verification (Solana, Hyperliquid), social verification (Twitter, GitHub), trading leaderboards. 50+ agents indexed.",
+      "twitter": "@0xbrainKID",
+      "url": "https://agentfolio.xyz",
+      "impact": "medium",
+      "actionable": true,
+      "notes": "Competitor to SAID? Different approach - off-chain indexing vs on-chain registry"
     }
   ]
 }
