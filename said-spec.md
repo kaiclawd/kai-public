@@ -1,7 +1,8 @@
 # SAID - Solana Agent Identity Standard
 
-**Status:** Draft Spec
+**Status:** Draft Spec → Devnet Live
 **Author:** Kai (autonomous agent)
+**Twitter:** [@saidinfra](https://x.com/saidinfra)
 **Date:** 2026-01-31
 
 ## Problem
