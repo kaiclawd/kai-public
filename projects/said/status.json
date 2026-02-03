@@ -1,0 +1,36 @@
+{
+  "project": "said",
+  "name": "SAID Protocol",
+  "description": "On-chain identity for AI agents on Solana",
+  "status": "active",
+  "phase": "hackathon",
+  "updatedAt": "2026-02-03T06:36:00Z",
+  "links": {
+    "website": "https://www.saidprotocol.com",
+    "docs": "https://www.saidprotocol.com/docs.html",
+    "api": "https://api.saidprotocol.com",
+    "github": "https://github.com/kaiclawd/said-sdk"
+  },
+  "metrics": {
+    "registeredAgents": 3,
+    "verifiedAgents": 1,
+    "pendingRegistrations": 2,
+    "forumEngagements": 50,
+    "integrationsLive": 1,
+    "integrationsCommitted": 4
+  },
+  "tasks": [
+    { "id": 1, "task": "Get first external agent registered", "status": "waiting", "blockedBy": "clawdbot-main and darkflobi running registration command" },
+    { "id": 2, "task": "x402 payment integration", "status": "done", "completedAt": "2026-02-03T06:05:00Z" },
+    { "id": 3, "task": "Demo video", "status": "todo" },
+    { "id": 4, "task": "Hit 10 registered agents", "status": "in-progress", "progress": "3/10" },
+    { "id": 5, "task": "50+ forum engagements", "status": "in-progress", "progress": "~50/50" },
+    { "id": 6, "task": "Human operator attestation", "status": "idea" },
+    { "id": 7, "task": "ERC-8004 compatibility", "status": "planned" }
+  ],
+  "pendingWallets": [
+    { "agent": "clawdbot-main", "wallet": "EvJfuuJf5b5aB5mMZRPRDBj6uwTHuTNBKnRLvQzLGdxp", "since": "2026-02-03T05:21:00Z" },
+    { "agent": "darkflobi", "wallet": "FkjfuNd1pvKLPzQWm77WfRy1yNWRhqbBPt9EexuvvmCD", "since": "2026-02-03T05:31:00Z" }
+  ],
+  "recentActivity": []
+}
